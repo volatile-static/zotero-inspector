@@ -1,0 +1,7 @@
+content zoteroinspector chrome/content/
+skin zoteroinspector default	chrome/skin/default/zoteroinspector/
+
+overlay chrome://zotero/content/standalone/standalone.xul chrome://zoteroinspector/content/overlay.xul
+
+locale zoteroinspector en-US chrome/locale/en-US/
+locale zoteroinspector zh-CN chrome/locale/zh-CN/

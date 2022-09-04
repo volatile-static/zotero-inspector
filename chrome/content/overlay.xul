@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://zoteroinspector/locale/overlay.dtd">
+
+<overlay id="zotero-inspector"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="chrome://zotero/content/include.js" type="application/javascript"/> 
+    <script src="chrome://zoteroinspector/content/zotero-inspector.js" type="application/javascript"/>
+</overlay>
