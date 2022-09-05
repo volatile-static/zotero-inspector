@@ -10,7 +10,7 @@
 
     <!-- 扩展的元数据。 --> 
     <em:iconURL>chrome://zoteroinspector/skin/icon.png</em:iconURL>
-    <em:updateURL>https://gitee.com/const_volatile/zotero-inspector/blob/master/update.rdf</em:updateURL>
+    <em:updateURL>https://github.com/volatile-static/zotero-inspector/blob/master/update.rdf</em:updateURL>
     <em:multiprocessCompatible>true</em:multiprocessCompatible>
     
     <em:localized>
@@ -31,7 +31,7 @@
         <em:locale>zh-CN</em:locale>
         <em:name>zotero-inspector</em:name>
         <em:creator>volatile static</em:creator>
-        <em:description>一个好看的Zotero插件</em:description>
+        <em:description>Zotero元素视察器</em:description>
         <em:homepageURL>https://gitee.com/const_volatile/zotero-inspector</em:homepageURL>
       </Description>
     </em:localized>
