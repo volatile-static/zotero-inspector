@@ -21,8 +21,9 @@ Zotero.Inspector = new function () {
         const reader = Zotero.Reader.getByTabID(Zotero_Tabs.selectedID);
         if (!reader)
             return;
-        inject(reader._iframeWindow.document);
-        inject(reader._window[3].document);
+        for (let i = 0; window.frames[i]; ++i)
+            inject(window.frames[i].document)
+        // inject(reader._iframeWindow.document);
         return reader;
     }
 

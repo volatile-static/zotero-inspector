@@ -1,6 +1,8 @@
 # Zotero DOM Inspector
 Add [dom-inspector](https://github.com/luoye-fe/dom-inspector) to Zotero.
 
+## Brief
+Add inspector to all html frames by one click.
 ![inspector](./inspector.png)
 ## Usage
 - main menu
@@ -10,9 +12,8 @@ Add [dom-inspector](https://github.com/luoye-fe/dom-inspector) to Zotero.
 
 ![menu](./menu.png)
 
+## Essential
 ```js
-const reader = Zotero.Reader.getByTabID(Zotero_Tabs.selectedID);
-        
-reader._iframeWindow.eval('inspector.disable()')  // pdf viewer
-reader._window[3].eval('inspector.enable()')  // note editor
+for (let i = 0; window.frames[i]; ++i)
+    inject(window.frames[i].document)
 ```
